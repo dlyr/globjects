@@ -9,7 +9,7 @@ find_package(glbinding REQUIRED)
 
 
 if(OPTION_USE_EIGEN)
-  find_package(Eigen3 3.3 REQUIRED)
+    find_package(Eigen3 3.3...5 REQUIRED NO_MODULE)
 endif()
 
 
