@@ -15,7 +15,7 @@ endif ()
 if (NOT TARGET glbinding::glbinding)
     find_dependency(glbinding)
 endif ()
-find_package(Eigen3 3.3 QUIET)
+find_package(Eigen3 3.3...5 QUIET)
 
 
 # List of modules
